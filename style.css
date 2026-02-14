@@ -1,5 +1,5 @@
 * {
-    margin: 2;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -13,7 +13,7 @@ html {
 
 body {
     color: white;
-    background: linear-gradient(-45deg, #2e003e, #800080, #720e9e, #ee82ee, #1d1160, #452c63, #33006F);
+    background: linear-gradient(#06141B, #11212D, #253745, #4A5C6A, #9BA8AB);
     background-size: 600% auto;
     animation: bg 18s ease infinite;
 }
@@ -41,14 +41,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(46, 0, 62, 0.8);
+    background-color: rgba(2, 27, 34, 0.8);
     z-index: 1000;
 }
 
 .logo {
     font-size: 2.8rem;
     font-weight: 800;
-    color: #ffb6c1;
+    color: #ccd0fc;
     transition: 0.3s ease;
 }
 
@@ -69,13 +69,13 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #ffb6c1;
+    color: #ccd0fc;
 }
 
 .hamburger {
     display: none;
     font-size: 2.8rem;
-    color: #ffb6c1;
+    color: #ccd0fc;
     cursor: pointer;
     z-index: 1100;
     position: relative;
@@ -87,7 +87,7 @@ nav a.active {
     right: -100%;
     width: 70%;
     height: 100vh;
-    background-color: rgba(46, 0, 62, 0.95);
+    background-color: rgba(2, 27, 34, 0.8);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +104,7 @@ nav a.active {
 }
 
 .sidebar a:hover {
-    color: #ffb6c1;
+    color: #253745;
 }
 
 .sidebar.active {
@@ -133,7 +133,7 @@ nav a.active {
     width: 32vw;
     max-width: 320px;
     border-radius: 50%;
-    box-shadow: 0 0 20px #ffb6c1;
+    box-shadow: 0 0 20px #334d5f;
     transition: 0.3s ease;
 }
 
@@ -152,7 +152,7 @@ nav a.active {
 }
 
 .home-content h1 span {
-    color: #ffb6c1;
+    color: #ccd0fc;
 }
 
 .typing-text {
@@ -162,7 +162,7 @@ nav a.active {
 }
 
 .typing-text span {
-    color: #dda0dd;
+    color: #ccd0fc
 }
 
 .home-content p {
@@ -179,24 +179,24 @@ nav a.active {
     height: 4rem;
     margin-right: 1.5rem;
     background: transparent;
-    border: 2px solid #ffb6c1;
+    border: 2px solid #ccd0fc;
     border-radius: 50%;
-    color: #ffb6c1;
+    color: #ccd0fc;
     transition: 0.3s ease;
     font-size: 1.8rem;
 }
 
 .social-icons a:hover {
-    background-color: #ffb6c1;
-    color: #2e003e;
+    background-color: #253745;
+    color: #8baab5;
     transform: scale(1.2);
 }
 
 .btn {
     display: inline-block;
     padding: 1rem 3rem;
-    background-color: #ffb6c1;
-    color: #2e003e;
+    background-color: #253745;
+    color: #ccd0fc;
     font-size: 1.6rem;
     font-weight: 600;
     border-radius: 4rem;
@@ -205,15 +205,15 @@ nav a.active {
 
 .btn:hover {
     background: transparent;
-    color: #ffb6c1;
-    border: 2px solid #ffb6c1;
+    color: #8bbab5;
+    border: 2px solid #253745;
     transform: scale(1.05);
 }
 
 .section-title {
     font-size: 4rem;
     margin-bottom: 2rem;
-    color: #ffb6c1;
+    color: #ccd0fc;
     text-align: center;
 }
 
@@ -236,7 +236,7 @@ nav a.active {
 
 .list li,
 .list p {
-    background-color: #4b007d;
+    background-color: #2d4253;
     padding: 1rem 2rem;
     border-radius: 10px;
     width: 100%;
@@ -263,11 +263,11 @@ nav a.active {
 
 .experience-gallery img:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(255, 182, 193, 0.8);
+    box-shadow: 0 0 25px rgba(105, 151, 153, 0.8);
 }
 
 .email {
-    color: #ffb6c1;
+    color: #06141B;
     text-decoration: underline;
 }
 
@@ -331,7 +331,7 @@ nav a.active {
 
 .badge {
     background: #fff;
-    color: #2e003e;
+    color: #082424;
     padding: 1rem 2rem;
     border-radius: 3rem;
     display: flex;
@@ -344,7 +344,7 @@ nav a.active {
 
 .badge:hover {
     transform: scale(1.08);
-    box-shadow: 0 0 20px rgba(255, 182, 193, 0.7);
+    box-shadow: 0 0 20px #06141B;
 }
 
 .badge img {
